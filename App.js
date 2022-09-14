@@ -1,4 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
+import Home from "./src/screens/Home";
+
+export default function App() {
+  return(
+    <Home/>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//SHIFT + ALT + A COMENTA TUDO BASTA SELECIONAR
+/* import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -18,3 +51,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+ */
